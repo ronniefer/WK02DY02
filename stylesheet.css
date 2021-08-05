@@ -1,0 +1,103 @@
+#ewe {
+    font-family: 'Ewert', cursive;
+    background-color: red;
+    color: white;
+    font-size: xxx-large;
+}
+
+.mono {
+    font-family: 'Monoton', cursive;
+    color: black;
+    font-size: xxx-large;
+}
+
+.bungee {
+    font-family: 'Bungee Shade', cursive;
+	color: black;
+    font-size: xxx-large;
+}
+
+.hana {
+    font-family: 'Hanalei', cursive;
+	color: black;
+    font-size: xxx-large;
+}
+
+.robo {
+    font-family: 'Roboto', sans-serif;
+	text-align: left;
+	color:#323232;
+	padding-top: 10px;
+}
+
+.theme {
+    background-color: black;
+    overflow: hidden;
+}
+  
+.navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: x-large;
+}
+  
+.navbar a:hover {
+    background-color: lightgray;
+    color: black;
+}
+  
+.navbar a:active {
+    background-color: red;
+    color: white;
+}
+
+.footer a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: medium;
+}
+  
+.footer a:hover {
+    background-color: lightgray;
+    color: black;
+}
+  
+.footer a:active {
+    background-color: red;
+    color: white;
+}
+
+.search-box{
+    width: 200px;
+    height: 35px;
+}
+
+.btn {
+    background-color:  black;
+    border: none;
+}
+
+.search-icon, .shopping-cart {
+    filter: invert(1); 
+    width: 30px; 
+    float: right; 
+}
+
+ol {
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    position: relative;
+    animation: mymove 5s infinite;
+}
+
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+}
